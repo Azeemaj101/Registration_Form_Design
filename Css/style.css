@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+#flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    /* text-align: center; */
+    padding: 0px 200px;
+}
+
+#flex-item-left {
+    background-color: rgb(127, 113, 130);
+    height: 516px;
+    width: 350px;
+    padding: 50px;
+}
+
+#flex-item-right {
+    background-color: rgb(248, 199, 194);
+    height: 500px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    /*  */
+    flex: 10%;
+}
+
+#flex-item-right p {
+    padding: 0px 90px;
+}
+
+.dog {
+    margin-top: 200px;
+    width: 30px;
+    margin-left: 30px;
+}
+
+.dog img {
+    width: 190px;
+}
+
+.para1 {
+    background-color: rgb(226, 134, 134);
+}
+
+body {
+    background-color: rgb(216, 169, 149);
+    padding-top: 90px;
+}
+
+.para1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.grid-container {
+    background-color: rgb(226, 134, 134);
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 6px 0px;
+    padding-left: 70px;
+}
+
+.label {
+    font-size: 20px;
+}
+
+.inp {
+    height: 35px;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    /* padding: 10px; */
+    text-align: center;
+    height: 42px;
+    width: 175px;
+}
+
+.btn {
+    border: 0px;
+    height: 30px;
+    width: 80px;
+}
+
+.btn:hover {
+    border: 2px solid rgb(226, 134, 134);
+    background-color: rgb(226, 134, 134);
+    border-radius: 9px;
+}
+
+.spayed {
+    width: 175px;
+}
+
+.button11 {
+    background-color: rgb(255, 255, 255);
+    /* padding: 10px; */
+    text-align: center;
+    height: 42px;
+    width: 438px;
+}
+
+.para2 {
+    padding: 18px;
+    background-color: white;
+}
+
+.back {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 23px;
+    padding: 9px 33px;
+}
+
+.back:hover {
+    background-color: rgb(226, 134, 134);
+}
+
+.next:hover {
+    background-color: rgb(226, 134, 134);
+}
+
+.next {
+    background-color: rgb(87, 60, 114);
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 23px;
+    padding: 9px 33px;
+    float: right;
+}
+
+.dogf {
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+}
+
+.foot {
+    background-color: rgb(226, 134, 134);
+    width: 30px;
+    padding: 4px 8px;
+    border-radius: 30px;
+}
+
+.img {
+    margin-top: 40px;
+    /* color: blue; */
+    display: none;
+}
+
+.cam {
+    padding-left: 7px;
+    padding-top: 7px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.camp {
+    margin-top: 35px;
+}
